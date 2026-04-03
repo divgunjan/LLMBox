@@ -6,7 +6,6 @@ import { EmbeddingsSection } from "./components/EmbeddingsSection";
 import { AttentionSection } from "./components/AttentionSection";
 import { PredictionSection } from "./components/PredictionSection";
 import { HomographSection } from "./components/HomographSection";
-import { FloatingChat } from "./components/FloatingChat";
 
 export default function App() {
   const [activeSection, setActiveSection] = useState("intro");
@@ -124,7 +123,6 @@ export default function App() {
         <HomographSection inputText={inputText} selectedModel={selectedModel} />
       </div>
 
-      <FloatingChat />
     </div>
   );
 }
