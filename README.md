@@ -166,7 +166,7 @@ You should see the LLM Architecture Explainer interface. Explore the interactive
 
 ## 🚀 Next Steps
 
-Once the application is running:
+Once the application is running:-
 1. Explore the **Tokenization** section to see how text is broken into tokens
 2. Check the **Embeddings** section to visualize vector representations
 3. Examine the **Attention Mechanisms** to understand how the model focuses on different tokens
