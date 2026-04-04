@@ -2,6 +2,12 @@
 
 Welcome to the LLM Architecture Explainer! This is an interactive web application designed to intuitively visualize and explain the inner workings of Large Language Models (LLMs), including concepts like Tokenization, Vector Embeddings, Attention Mechanisms, and Next-Token Predictions.
 
+## 🎬 Demo Video
+
+[![Watch the demo](https://img.youtube.com/vi/Jj16E18yQTA/hqdefault.jpg)](https://youtu.be/Jj16E18yQTA)
+
+Watch on YouTube: https://youtu.be/Jj16E18yQTA
+
 ## 🚀 Features
 - **Interactive Visualizations**: Watch concepts map dynamically onto D3 vector embedding graphs.
 - **Attention Mapping**: See exactly where the model focuses its attention per token.
