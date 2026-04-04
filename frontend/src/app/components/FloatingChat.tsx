@@ -22,7 +22,6 @@ export function FloatingChat() {
   const [loading, setLoading] = useState(false);
   const [showHint, setShowHint] = useState(true);
   const messagesEndRef = useRef<HTMLDivElement>(null);
-  const apiBase = (import.meta.env.VITE_API_BASE_URL || "").replace(/\/$/, "");
 
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -38,9 +37,7 @@ export function FloatingChat() {
     setLoading(true);
 
     try {
-      const candidateUrls = apiBase
-        ? [`${apiBase}/api/chat`]
-        : ["/api/chat", "http://localhost:3000/api/chat"];
+      const candidateUrls = ["/api/chat", "http://localhost:3000/api/chat"];
 
       let lastError: unknown = null;
       let replyText: string | null = null;
